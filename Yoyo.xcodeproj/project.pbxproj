@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7E3D3FFB1DB5BFFF00647CE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D3FFA1DB5BFFF00647CE8 /* main.cpp */; };
+		7E3D40031DB5C04700647CE8 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D40011DB5C04700647CE8 /* Node.cpp */; };
+		7E3D40061DB5C06C00647CE8 /* Resistor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D40041DB5C06C00647CE8 /* Resistor.cpp */; };
+		7E3D40091DB5C07C00647CE8 /* Rparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D40071DB5C07C00647CE8 /* Rparser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		7E3D3FF71DB5BFFF00647CE8 /* Yoyo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Yoyo; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3D3FFA1DB5BFFF00647CE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7E3D40011DB5C04700647CE8 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		7E3D40021DB5C04700647CE8 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		7E3D40041DB5C06C00647CE8 /* Resistor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Resistor.cpp; sourceTree = "<group>"; };
+		7E3D40051DB5C06C00647CE8 /* Resistor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Resistor.hpp; sourceTree = "<group>"; };
+		7E3D40071DB5C07C00647CE8 /* Rparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rparser.cpp; sourceTree = "<group>"; };
+		7E3D40081DB5C07C00647CE8 /* Rparser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Rparser.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				7E3D3FFA1DB5BFFF00647CE8 /* main.cpp */,
+				7E3D40011DB5C04700647CE8 /* Node.cpp */,
+				7E3D40021DB5C04700647CE8 /* Node.hpp */,
+				7E3D40041DB5C06C00647CE8 /* Resistor.cpp */,
+				7E3D40051DB5C06C00647CE8 /* Resistor.hpp */,
+				7E3D40071DB5C07C00647CE8 /* Rparser.cpp */,
+				7E3D40081DB5C07C00647CE8 /* Rparser.hpp */,
 			);
 			path = Yoyo;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E3D3FFB1DB5BFFF00647CE8 /* main.cpp in Sources */,
+				7E3D40031DB5C04700647CE8 /* Node.cpp in Sources */,
+				7E3D40061DB5C06C00647CE8 /* Resistor.cpp in Sources */,
+				7E3D40091DB5C07C00647CE8 /* Rparser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
